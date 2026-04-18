@@ -14,6 +14,7 @@ Frontend: React.js, Next.js
 Styling: Tailwind CSS
 3D & Animations: Three.js, @react-three/fiber
 Tools: Git, GitHub, Vercel
+
 🎯 Goal
 
 To create a visually appealing and performance-optimized portfolio that not only showcases my projects but also reflects my design sense and development skills.
