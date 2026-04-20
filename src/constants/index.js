@@ -21,7 +21,7 @@ export const navLinks = [
     },
   ];
   
-  export const clientReviews = [
+  export const testimonials = [
     {
       id: 1,
       name: 'Satyaki Maiti',
@@ -33,7 +33,7 @@ export const navLinks = [
     {
       id: 2,
       name: 'Amisha Joshi',
-      position: 'Ex TDP Intern at Optum',
+      position: 'Former TDP Intern at Optum',
       img: 'assets/review1.png',
       review:
         'Supriti’s expertise in web development is truly impressive. She’s a true professional! Fantastic work.',
@@ -59,9 +59,9 @@ export const navLinks = [
   export const myProjects = [
     {
       title: 'AI-Based Complaint Routing System',
-      desc: 'An innovative Software-as-a-Service application designed to revolutionize customer support. This system utilizes advanced AI algorithms to analyze incoming complaints and route them to the most appropriate department or agent, ensuring faster resolution times and improved customer satisfaction.',
+      desc: 'An intelligent grievance management system that automates complaint classification and routing using NLP, ensuring faster and more accurate resolution.',
       subdesc:
-        'Built with Next.js 14, OpenAI API, Clerk, and Twilio, this application combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+        'Leverages natural language processing to categorize complaints, detect priority levels, and identify duplicates, combined with role-based dashboards to streamline handling and improve response efficiency.',
       href: 'https://github.com/supriti10/ai-complaint-routing-system.git',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/p1.png',
@@ -84,24 +84,19 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Python',
+          path: 'assets/python.png',
         },
       ],
     },
     {
       title: 'AI Code Generator',
-      desc: 'An innovative Software-as-a-Service application designed to revolutionize the coding process. This system utilizes advanced AI algorithms to analyze user requirements and generate code snippets in various programming languages, streamlining development and enhancing productivity.',
+      desc: 'A generative AI-powered tool that assists developers by generating, explaining, and debugging code from natural language prompts.',
       subdesc:
-        'Built with Next.js 14, OpenAI API, Clerk, and Twilio, this application combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+        'Offers three intelligent modes: generate clean code instantly, understand existing code with clear explanations, and debug errors with actionable fixes—all in one streamlined interface.',
       href: 'https://ai-code-generator-s10.streamlit.app/',
       texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+      logo: '/assets/p2.png',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -111,23 +106,13 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Python',
+          path: '/assets/python.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Streamlit',
+          path: 'assets/streamlit.png',
         },
       ],
     },
