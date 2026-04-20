@@ -1,11 +1,25 @@
 import { useGLTF, useTexture } from '@react-three/drei';
+import * as THREE from 'three';
+import { useEffect } from 'react';
 
 const HackerRoom = (props) => {
   const { nodes, materials } = useGLTF('/models/hacker-room.glb');
 
-  // ✅ FIX: use absolute paths (VERY IMPORTANT in Vite)
   const monitortxt = useTexture('/textures/desk/monitor.png');
   const screenTxt = useTexture('/textures/desk/screen.png');
+
+  // ✅ Safe texture setup
+  useEffect(() => {
+    if (monitortxt) {
+      monitortxt.flipY = false;
+      monitortxt.encoding = THREE.sRGBEncoding;
+    }
+
+    if (screenTxt) {
+      screenTxt.flipY = false;
+      screenTxt.encoding = THREE.sRGBEncoding;
+    }
+  }, [monitortxt, screenTxt]);
 
   return (
     <group {...props} dispose={null}>
@@ -38,7 +52,6 @@ const HackerRoom = (props) => {
   );
 };
 
-// ✅ Preload
 useGLTF.preload('/models/hacker-room.glb');
 
 export default HackerRoom;

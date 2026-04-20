@@ -135,8 +135,6 @@ export const navLinks = [
       name: 'Optum',
       pos: 'Technology Development Intern',
       duration: 'June 2025 - August 2025',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
-      animation: 'victory',
+      title: "Worked on manual remediation of vulnerabilities in 200+ repositories. Developed a Python script to automate the remediation process, reducing manual effort by 80% and improving efficiency. Built a prediction as well as a suggestion model to predict the time limit and chances of escalation and for suggesting transitve dependency for parent upgrades as well as checking their compatibility.",
     },
   ];
